@@ -1,0 +1,6 @@
+Version: 0.0.0
+Architecture: all
+Package: vault-cli
+Depends: php8.2-cli, openssl
+Description: Secrets Repository
+Maintainer: Ali Kamel <ali.kamel.dev@gmail.com>

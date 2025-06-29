@@ -1,0 +1,12 @@
+#!/bin/bash
+# 
+# Post-installation script.
+# 
+# Version: 1.0.0
+#   Since: 0.0.0
+# Package: vault-cli
+#  Author: Ali M. Kamel <ali.kamel.dev@gmail.com>
+
+yes | COMPOSER_ALLOW_SUPERUSER=1 composer -d /usr/local/lib/vault update
+
+groupadd --system vault
