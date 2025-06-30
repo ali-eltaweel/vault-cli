@@ -6,7 +6,7 @@
  * 
  * @internal
  * @since 0.0.0
- * @version 0.0.0
+ * @version 0.1.0
  * @package vault-cli
  * @author Ali M. Kamel <ali.kamel.dev@gmail.com>
  */
@@ -20,3 +20,5 @@ set_exception_handler(function (Throwable $exception): void {
 require_once '/usr/local/lib/vault/vendor/autoload.php';
 
 $argv[0] = basename($argv[0]);
+
+Vault\CLI\App::main(...$argv);

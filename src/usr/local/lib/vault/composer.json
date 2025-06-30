@@ -1,0 +1,15 @@
+{
+    "name": "ali-kamel/vault-cli",
+    "version": "1.0.0",
+    "description": "Secrets Repository",
+    "require": {
+        "php": "^8.2",
+        "ali-eltaweel/vault": "^1.0.0",
+        "ali-eltaweel/cli-app": "^0.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vault\\CLI\\": "src/"
+        }
+    }
+}
